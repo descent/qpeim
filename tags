@@ -1,0 +1,175 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.2	//
+ADD	et_phonetic.h	/^ enum InputStatus {DEL,ADD}; \/\/ 目前是增加一個注音還是刪除一個注音$/;"	e	enum:DS::InputStatus
+BACKSPACE	input_handler.h	/^ enum KeyKind {NOP=-2,CHANGE_INPUT_METHOD=-1,TAB,CAPS_LOCK,BACKSPACE,ENTER,SHIFT,SPACE,CHAR};$/;"	e	enum:DS::KeyKind
+BIG5_H	big5.h	9;"	d
+BOTTOMS	et_phonetic.h	/^ enum PhoneticKind {NOS=-1,TOPS=0,MIDS,BOTTOMS,OTHERS};$/;"	e	enum:DS::PhoneticKind
+BaseInput	input_handler.h	/^ class BaseInput$/;"	c	namespace:DS
+Big5Code	big5.h	/^   Big5Code(int big5_num=0)$/;"	f	class:DS::Big5Code
+Big5Code	big5.h	/^   Big5Code(unsigned char b1,unsigned char b2)$/;"	f	class:DS::Big5Code
+Big5Code	big5.h	/^ class Big5Code$/;"	c	namespace:DS
+Big5Codec	big5.h	/^ class Big5Codec$/;"	c	namespace:DS
+CAPS	input_handler.h	/^   enum KeyboardMode {NORMAL=0,CAPS,SHIFT,LAST};$/;"	e	enum:DS::BaseInput::KeyboardMode
+CAPS_LOCK	input_handler.h	/^ enum KeyKind {NOP=-2,CHANGE_INPUT_METHOD=-1,TAB,CAPS_LOCK,BACKSPACE,ENTER,SHIFT,SPACE,CHAR};$/;"	e	enum:DS::KeyKind
+CHANGE_INPUT_METHOD	input_handler.h	/^ enum KeyKind {NOP=-2,CHANGE_INPUT_METHOD=-1,TAB,CAPS_LOCK,BACKSPACE,ENTER,SHIFT,SPACE,CHAR};$/;"	e	enum:DS::KeyKind
+CHAR	input_handler.h	/^ enum KeyKind {NOP=-2,CHANGE_INPUT_METHOD=-1,TAB,CAPS_LOCK,BACKSPACE,ENTER,SHIFT,SPACE,CHAR};$/;"	e	enum:DS::KeyKind
+ChangjeiCharIt	et_changjei.h	/^   typedef std::vector<std::string> :: iterator ChangjeiCharIt;$/;"	t	class:DS::ETChangjei
+DEL	et_phonetic.h	/^ enum InputStatus {DEL,ADD}; \/\/ 目前是增加一個注音還是刪除一個注音$/;"	e	enum:DS::InputStatus
+DS	big5.h	/^namespace DS$/;"	n
+DS	et_changjei.h	/^namespace DS$/;"	n
+DS	et_phonetic.h	/^namespace DS$/;"	n
+DS	etchangjei_input.h	/^namespace DS$/;"	n
+DS	etphonetic_input.h	/^namespace DS$/;"	n
+DS	input_handler.h	/^namespace DS$/;"	n
+ENGLISH	qpe_input_w.h	/^  enum INPUT_STATUS {ENGLISH=0,ET_PHONETIC=1,ET_CHANGJEI=2,LAST_INPUT_METHOD};$/;"	e	enum:QPEInputMethod::INPUT_STATUS
+ENTER	input_handler.h	/^ enum KeyKind {NOP=-2,CHANGE_INPUT_METHOD=-1,TAB,CAPS_LOCK,BACKSPACE,ENTER,SHIFT,SPACE,CHAR};$/;"	e	enum:DS::KeyKind
+ETCHANGJEI_INPUT_H	etchangjei_input.h	10;"	d
+ETChangjei	et_changjei.h	/^ class ETChangjei$/;"	c	namespace:DS
+ETChangjeiValue	et_changjei.h	/^ union ETChangjeiValue$/;"	u	namespace:DS
+ETPHONETIC_INPUT_H	etphonetic_input.h	10;"	d
+ETPhonetic	et_phonetic.h	/^ class ETPhonetic$/;"	c	namespace:DS
+ET_CHANGJEI	qpe_input_w.h	/^  enum INPUT_STATUS {ENGLISH=0,ET_PHONETIC=1,ET_CHANGJEI=2,LAST_INPUT_METHOD};$/;"	e	enum:QPEInputMethod::INPUT_STATUS
+ET_CHANGJEI_H	et_changjei.h	10;"	d
+ET_PHONETIC	qpe_input_w.h	/^  enum INPUT_STATUS {ENGLISH=0,ET_PHONETIC=1,ET_CHANGJEI=2,LAST_INPUT_METHOD};$/;"	e	enum:QPEInputMethod::INPUT_STATUS
+EnglishInput	input_handler.h	/^ class EnglishInput : public BaseInput$/;"	c	namespace:DS
+EtChangjeiInput	etchangjei_input.h	/^ class EtChangjeiInput : public BaseInput$/;"	c	namespace:DS
+EtPhoneticInput	etphonetic_input.h	/^ class EtPhoneticInput : public BaseInput$/;"	c	namespace:DS
+INPUT_HANDLER_H	input_handler.h	10;"	d
+INPUT_STATUS	qpe_input_w.h	/^  enum INPUT_STATUS {ENGLISH=0,ET_PHONETIC=1,ET_CHANGJEI=2,LAST_INPUT_METHOD};$/;"	g	class:QPEInputMethod
+InputStatus	et_phonetic.h	/^ enum InputStatus {DEL,ADD}; \/\/ 目前是增加一個注音還是刪除一個注音$/;"	g	namespace:DS
+KEYBOARD_ROWS	input_handler.h	/^   enum KeyBoard{KEYBOARD_ROWS=5};$/;"	e	enum:DS::BaseInput::KeyBoard
+Key	input_handler.h	/^ struct Key$/;"	s	namespace:DS
+KeyBoard	input_handler.h	/^   enum KeyBoard{KEYBOARD_ROWS=5};$/;"	g	class:DS::BaseInput
+KeyKind	input_handler.h	/^ enum KeyKind {NOP=-2,CHANGE_INPUT_METHOD=-1,TAB,CAPS_LOCK,BACKSPACE,ENTER,SHIFT,SPACE,CHAR};$/;"	g	namespace:DS
+KeyboardMode	input_handler.h	/^   enum KeyboardMode {NORMAL=0,CAPS,SHIFT,LAST};$/;"	g	class:DS::BaseInput
+LAST	input_handler.h	/^   enum KeyboardMode {NORMAL=0,CAPS,SHIFT,LAST};$/;"	e	enum:DS::BaseInput::KeyboardMode
+LAST_INPUT_METHOD	qpe_input_w.h	/^  enum INPUT_STATUS {ENGLISH=0,ET_PHONETIC=1,ET_CHANGJEI=2,LAST_INPUT_METHOD};$/;"	e	enum:QPEInputMethod::INPUT_STATUS
+Line	input_handler.h	/^ typedef std::vector<Key *> Line;$/;"	t	namespace:DS
+Line_Iter	input_handler.h	/^ typedef std::vector<Key *>::iterator Line_Iter;$/;"	t	namespace:DS
+MAX_WORDS	etchangjei_input.h	/^   enum {MAX_WORDS=7}; \/\/ 在選字區最多一次可秀出的字$/;"	e	enum:DS::EtChangjeiInput::<anonymous>
+MAX_WORDS	etphonetic_input.h	/^   enum {MAX_WORDS=8};	$/;"	e	enum:DS::EtPhoneticInput::<anonymous>
+MFp	input_handler.h	/^   typedef int (BaseInput::*MFp)(int c);$/;"	t	class:DS::BaseInput
+MIDS	et_phonetic.h	/^ enum PhoneticKind {NOS=-1,TOPS=0,MIDS,BOTTOMS,OTHERS};$/;"	e	enum:DS::PhoneticKind
+NOP	input_handler.h	/^ enum KeyKind {NOP=-2,CHANGE_INPUT_METHOD=-1,TAB,CAPS_LOCK,BACKSPACE,ENTER,SHIFT,SPACE,CHAR};$/;"	e	enum:DS::KeyKind
+NORMAL	input_handler.h	/^   enum KeyboardMode {NORMAL=0,CAPS,SHIFT,LAST};$/;"	e	enum:DS::BaseInput::KeyboardMode
+NOS	et_phonetic.h	/^ enum PhoneticKind {NOS=-1,TOPS=0,MIDS,BOTTOMS,OTHERS};$/;"	e	enum:DS::PhoneticKind
+OTHERS	et_phonetic.h	/^ enum PhoneticKind {NOS=-1,TOPS=0,MIDS,BOTTOMS,OTHERS};$/;"	e	enum:DS::PhoneticKind
+PHONETIC_H	et_phonetic.h	13;"	d
+Phonetic42keys	et_phonetic.h	/^  struct Phonetic42keys$/;"	s	namespace:DS
+PhoneticKind	et_phonetic.h	/^   std::map<std::string,std::pair<DS::PhoneticKind,int> > _phonetic_map;$/;"	m	class:DS::ETPhonetic::S
+PhoneticKind	et_phonetic.h	/^   std::pair<DS::PhoneticKind,int> lookup_etphonetic_pair(const std::string &str);$/;"	m	class:DS::ETPhonetic::S
+PhoneticKind	et_phonetic.h	/^ enum PhoneticKind {NOS=-1,TOPS=0,MIDS,BOTTOMS,OTHERS};$/;"	g	namespace:DS
+QPEInputMethod	qpe_input_w.h	/^ class QPEInputMethod : public QFrame$/;"	c
+QPEInputMethodImpl	qpe_input_impl.h	/^ class QPEInputMethodImpl : public InputMethodInterface$/;"	c
+QPE_INPUT_IMPL_H	qpe_input_impl.h	9;"	d
+QPE_INPUT_W_H	qpe_input_w.h	10;"	d
+QtKey	input_handler.h	/^ struct QtKey$/;"	s	namespace:DS
+SHIFT	input_handler.h	/^   enum KeyboardMode {NORMAL=0,CAPS,SHIFT,LAST};$/;"	e	enum:DS::BaseInput::KeyboardMode
+SHIFT	input_handler.h	/^ enum KeyKind {NOP=-2,CHANGE_INPUT_METHOD=-1,TAB,CAPS_LOCK,BACKSPACE,ENTER,SHIFT,SPACE,CHAR};$/;"	e	enum:DS::KeyKind
+SIMPLE_WIDGET_IM_H	simple_widget_im.h	2;"	d
+SPACE	input_handler.h	/^ enum KeyKind {NOP=-2,CHANGE_INPUT_METHOD=-1,TAB,CAPS_LOCK,BACKSPACE,ENTER,SHIFT,SPACE,CHAR};$/;"	e	enum:DS::KeyKind
+SimpleInputMethodImpl	simple_widget_im.h	/^ class SimpleInputMethodImpl : public InputMethodInterface$/;"	c
+TAB	input_handler.h	/^ enum KeyKind {NOP=-2,CHANGE_INPUT_METHOD=-1,TAB,CAPS_LOCK,BACKSPACE,ENTER,SHIFT,SPACE,CHAR};$/;"	e	enum:DS::KeyKind
+TOPS	et_phonetic.h	/^ enum PhoneticKind {NOS=-1,TOPS=0,MIDS,BOTTOMS,OTHERS};$/;"	e	enum:DS::PhoneticKind
+_big5_code	big5.h	/^   aBig5Code _big5_code;$/;"	m	class:DS::Big5Code
+_big5_codes	big5.h	/^   vector<Big5Code> _big5_codes;$/;"	m	class:DS::Big5Codec
+_big5_codes	et_phonetic.h	/^   std::vector<DS::Big5Code> _big5_codes; \/\/ 符合的字$/;"	m	class:DS::ETPhonetic
+_byte3	et_changjei.h	/^   unsigned char _byte3[3];$/;"	m	class:DS::ETChangjei
+_byte3	et_changjei.h	/^  unsigned char _byte3[3]; \/\/ 當要用 _bytes 做比對資料時要注意$/;"	m	union:DS::ETChangjeiValue
+_calc_value	et_changjei.h	/^   unsigned int _calc_value[5]; $/;"	m	class:DS::ETChangjei
+_capital	input_handler.h	/^   bool _capital; \/\/ 若設為 true 表示秀出大寫英文字母$/;"	m	class:DS::EnglishInput
+_cell_cols	qpe_input_w.h	/^   int _cell_cols; \/\/ QPEInputMethod widget 的 col 有幾個 cell$/;"	m	class:QPEInputMethod
+_cell_rows	qpe_input_w.h	/^   int _cell_rows; \/\/  QPEInputMethod widget 的 rows 有幾個 cell$/;"	m	class:QPEInputMethod
+_ch	input_handler.h	/^  const int _ch;$/;"	m	struct:DS::Key
+_change_input_method	qpe_input_w.h	/^   QPopupMenu *_change_input_method;$/;"	m	class:QPEInputMethod
+_changjei_char	et_changjei.h	/^   std::vector<std::string> _changjei_char; $/;"	m	class:DS::ETChangjei
+_changjei_map	et_changjei.h	/^   std::map<std::string,int> _changjei_map; \/\/ 倉頡字根與編碼值的對應$/;"	m	class:DS::ETChangjei
+_check_code	et_phonetic.h	/^   int _file_offset,_check_code;$/;"	m	class:DS::ETPhonetic
+_composite_words	etchangjei_input.h	/^   std::vector<std::string> _composite_words;$/;"	m	class:DS::EtChangjeiInput
+_composite_words	etphonetic_input.h	/^   std::vector<std::string> _composite_words; \/\/ 目前有那些注音被輸入$/;"	m	class:DS::EtPhoneticInput
+_draw_composite_area	etphonetic_input.h	/^   bool _draw_select_area,_draw_keys,_draw_composite_area;$/;"	m	class:DS::EtPhoneticInput
+_draw_keys	etphonetic_input.h	/^   bool _draw_select_area,_draw_keys,_draw_composite_area;$/;"	m	class:DS::EtPhoneticInput
+_draw_select_area	etphonetic_input.h	/^   bool _draw_select_area,_draw_keys,_draw_composite_area;$/;"	m	class:DS::EtPhoneticInput
+_encoding_value	et_changjei.h	/^   unsigned int _encoding_value; \/\/ 倉頡編碼值$/;"	m	class:DS::ETChangjei
+_encoding_value	et_changjei.h	/^  unsigned int _encoding_value;$/;"	m	union:DS::ETChangjeiValue
+_english_to_changjei	etchangjei_input.h	/^   std::map<int,std::string> _english_to_changjei;$/;"	m	class:DS::EtChangjeiInput
+_english_to_phonetic41	etphonetic_input.h	/^   std::map<int,std::string> _english_to_phonetic41;$/;"	m	class:DS::EtPhoneticInput
+_et_changjei	etchangjei_input.h	/^   DS::ETChangjei _et_changjei;$/;"	m	class:DS::EtChangjeiInput
+_etchangjei_value	et_changjei.h	/^   ETChangjeiValue _etchangjei_value;$/;"	m	class:DS::ETChangjei
+_etphonetic	etphonetic_input.h	/^   DS::ETPhonetic _etphonetic;$/;"	m	class:DS::EtPhoneticInput
+_etphonetic_file	et_phonetic.h	/^   std::ifstream _etphonetic_file;$/;"	m	class:DS::ETPhonetic
+_file_offset	et_phonetic.h	/^   int _file_offset,_check_code;$/;"	m	class:DS::ETPhonetic
+_fn	et_changjei.h	/^   std::string _fn; \/\/ 倉頡輸入法參考檔檔名$/;"	m	class:DS::ETChangjei
+_fn	et_phonetic.h	/^   std::string _fn;$/;"	m	class:DS::ETPhonetic
+_glyph	et_phonetic.h	/^   std::string _glyph; \/\/ 注音符號$/;"	m	struct:DS::Phonetic42keys
+_h_unit	input_handler.h	/^  const int _h_unit;$/;"	m	struct:DS::Key
+_hi	big5.h	/^   unsigned char _hi,_lo; \/\/ high byte and low byte$/;"	m	class:DS::Big5Code
+_id	et_phonetic.h	/^   int _id; \/\/ 代表 0 聲母, 1 韻母, 2 介音, 3 聲符$/;"	m	struct:DS::Phonetic42keys
+_input	qpe_input_w.h	/^   DS::BaseInput *_input[LAST_INPUT_METHOD];$/;"	m	class:QPEInputMethod
+_input_status	qpe_input_w.h	/^   INPUT_STATUS _input_status;$/;"	m	class:QPEInputMethod
+_key_unit_height	qpe_input_w.h	/^   int _key_unit_height; \/\/ QPEInputMethod key height 的基本單位$/;"	m	class:QPEInputMethod
+_key_unit_width	qpe_input_w.h	/^   int _key_unit_width; \/\/ QPEInputMethod key width 的基本單位$/;"	m	class:QPEInputMethod
+_keyboard_mode	input_handler.h	/^   KeyboardMode _keyboard_mode;$/;"	m	class:DS::BaseInput
+_lines	input_handler.h	/^   Line _lines[KEYBOARD_ROWS];$/;"	m	class:DS::BaseInput
+_lo	big5.h	/^   unsigned char _hi,_lo; \/\/ high byte and low byte$/;"	m	class:DS::Big5Code
+_match_words	et_changjei.h	/^   std::vector<DS::Big5Code> _match_words;$/;"	m	class:DS::ETChangjei
+_match_words	etchangjei_input.h	/^   std::vector<DS::Big5Code> _match_words;$/;"	m	class:DS::EtChangjeiInput
+_match_words	etphonetic_input.h	/^   std::vector<DS::Big5Code> _match_words; \/\/ 符合注音輸入的字$/;"	m	class:DS::EtPhoneticInput
+_max_paragraph	etchangjei_input.h	/^   int _max_paragraph,_paragraph;$/;"	m	class:DS::EtChangjeiInput
+_max_paragraph	etphonetic_input.h	/^   int _max_paragraph; \/\/ 記錄選字區最多有幾段$/;"	m	class:DS::EtPhoneticInput
+_mfp	input_handler.h	/^   MFp _mfp[LAST];$/;"	m	class:DS::BaseInput
+_painter	qpe_input_w.h	/^   QPainter _painter;$/;"	m	class:QPEInputMethod
+_paragraph	etchangjei_input.h	/^   int _max_paragraph,_paragraph;$/;"	m	class:DS::EtChangjeiInput
+_paragraph	etphonetic_input.h	/^   int _paragraph; \/\/ 記錄選字區目前是那一段要顯示出來$/;"	m	class:DS::EtPhoneticInput
+_parent	input_handler.h	/^   QPEInputMethod *_parent;$/;"	m	class:DS::BaseInput
+_phonetic	et_phonetic.h	/^   std::string _phonetic[4]; $/;"	m	class:DS::ETPhonetic
+_phonetic	etphonetic_input.h	/^   QString _phonetic[4]; \/\/ 組字區的注音符號$/;"	m	class:DS::EtPhoneticInput
+_phonetic_map	et_phonetic.h	/^   std::map<std::string,std::pair<DS::PhoneticKind,int> > _phonetic_map;$/;"	m	class:DS::ETPhonetic
+_qt_key	qpe_input_w.h	/^   DS::QtKey _qt_key;$/;"	m	class:QPEInputMethod
+_qt_keycode	input_handler.h	/^  int _qt_keycode;$/;"	m	struct:DS::QtKey
+_sercode	et_changjei.h	/^   int _sercode; \/\/ 序列碼$/;"	m	class:DS::ETChangjei
+_unicode	input_handler.h	/^  int _unicode;$/;"	m	struct:DS::QtKey
+_value	et_phonetic.h	/^   int _value; \/\/ 該注音符號的編碼值$/;"	m	struct:DS::Phonetic42keys
+_value	et_phonetic.h	/^   int _value[4]; \/\/ 聲母、介音、韻母、聲符的編碼值$/;"	m	class:DS::ETPhonetic
+_w_unit	input_handler.h	/^  const int _w_unit;$/;"	m	struct:DS::Key
+aBig5Code	big5.h	/^   union aBig5Code$/;"	u	namespace:DS
+big5num	big5.h	/^   unsigned int big5num(){return _big5_code.num;}$/;"	f	class:DS::Big5Code
+change_size	etchangjei_input.h	/^   void change_size()$/;"	f	class:DS::EtChangjeiInput
+code	big5.h	/^    unsigned char code[4];$/;"	m	union:DS::aBig5Code
+del_all_changjei	et_changjei.h	/^   void del_all_changjei() \/\/ 刪除所有倉頡字根$/;"	f	class:DS::ETChangjei
+del_phonetic	etphonetic_input.h	/^   void del_phonetic()$/;"	f	class:DS::EtPhoneticInput
+get_big5code	big5.h	/^   vector<Big5Code> & get_big5code(const std::string &str)$/;"	f	class:DS::Big5Codec
+get_composite_words	et_changjei.h	/^   std::vector<std::string> get_composite_words(){ return _changjei_char;}$/;"	f	class:DS::ETChangjei
+get_parent	input_handler.h	/^   QPEInputMethod *get_parent()$/;"	f	class:DS::BaseInput
+get_qstring	input_handler.h	/^   QString get_qstring(int ch)$/;"	f	class:DS::BaseInput
+get_qt_key	input_handler.h	/^   DS::QtKey get_qt_key(int ch)$/;"	f	class:DS::BaseInput
+get_string	input_handler.h	/^   std::string get_string(int ch,KeyboardMode keyboard_mode=NORMAL)$/;"	f	class:DS::BaseInput
+hi	big5.h	/^   unsigned char hi(){return _big5_code.code[1];}$/;"	f	class:DS::Big5Code
+icn	qpe_input_impl.h	/^   QPixmap *icn;$/;"	m	class:QPEInputMethodImpl
+icn	simple_widget_im.h	/^   QPixmap *icn;$/;"	m	class:SimpleInputMethodImpl
+init_big5_code	big5.h	/^   void init_big5_code()$/;"	f	class:DS::Big5Code
+input	qpe_input_impl.h	/^   QPEInputMethod *input;$/;"	m	class:QPEInputMethodImpl
+input	simple_widget_im.h	/^   QPEInputMethod *input;$/;"	m	class:SimpleInputMethodImpl
+key_unit_height	qpe_input_w.h	/^   int key_unit_height(){return _key_unit_height;}$/;"	f	class:QPEInputMethod
+key_unit_width	qpe_input_w.h	/^   int key_unit_width(){return _key_unit_width;}$/;"	f	class:QPEInputMethod
+lo	big5.h	/^   unsigned char lo(){return _big5_code.code[0];}$/;"	f	class:DS::Big5Code
+nt	etchangjei_input.h	/^   std::map<int,std::string> _english_to_changjei;$/;"	m	class:DS::EtChangjeiInput
+nt	etphonetic_input.h	/^   std::map<int,std::string> _english_to_phonetic41;$/;"	m	class:DS::EtPhoneticInput
+num	big5.h	/^    unsigned int num;$/;"	m	union:DS::aBig5Code
+ref	qpe_input_impl.h	/^   ulong ref; \/\/ 這個變數不能亂改名字, compile 會不過, 我猜是和 Q_REFCOUNT MACRO 有關$/;"	m	class:QPEInputMethodImpl
+ref	simple_widget_im.h	/^   ulong ref;$/;"	m	class:SimpleInputMethodImpl
+reverse_case	input_handler.h	/^   virtual void reverse_case() \/\/ 將大寫轉小寫，小寫轉大寫$/;"	f	class:DS::BaseInput
+reverse_case	input_handler.h	/^   void reverse_case() \/\/ 將大寫轉小寫，小寫轉大寫$/;"	f	class:DS::EnglishInput
+set_capital	input_handler.h	/^   void set_capital(bool f){_capital=f;}$/;"	f	class:DS::EnglishInput
+set_col	qpe_input_w.h	/^   void set_col(int col){_cell_cols=col;}$/;"	f	class:QPEInputMethod
+set_keyboard_mode	input_handler.h	/^   void set_keyboard_mode(KeyboardMode keyboard_mode)$/;"	f	class:DS::BaseInput
+set_row	qpe_input_w.h	/^   void set_row(int row){_cell_rows=row;}$/;"	f	class:QPEInputMethod
+string	et_changjei.h	/^   std::map<std::string,int> _changjei_map; \/\/ 倉頡字根與編碼值的對應$/;"	m	class:DS::ETChangjei::td
+string	et_phonetic.h	/^   std::map<std::string,std::pair<DS::PhoneticKind,int> > _phonetic_map;$/;"	m	class:DS::ETPhonetic::td
+string2qstring	input_handler.h	/^   static QString string2qstring(std::string str,const char *codename="big5")$/;"	f	class:DS::BaseInput
+string2qstring	qpe_input_w.h	/^   static QString string2qstring(std::string str,const char *codename="big5")$/;"	f	class:QPEInputMethod
+~BaseInput	input_handler.h	/^   virtual ~BaseInput(){}$/;"	f	class:DS::BaseInput
